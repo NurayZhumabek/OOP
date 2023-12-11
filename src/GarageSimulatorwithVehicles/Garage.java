@@ -35,7 +35,7 @@ public class Garage {
 
     public void displayInfo() {
         for (Vehicle vehicle : vehicles) {
-            System.out.println(vehicle.toString());
+            System.out.println(vehicle);
         }
 
     }

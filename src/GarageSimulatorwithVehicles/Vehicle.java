@@ -28,4 +28,12 @@ public class Vehicle {
     public void setSpeed(int speed) {
         this.speed = speed;
     }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", speed=" + speed +
+                '}';
+    }
 }
