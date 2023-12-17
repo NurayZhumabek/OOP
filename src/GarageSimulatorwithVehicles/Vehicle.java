@@ -1,10 +1,17 @@
 package GarageSimulatorwithVehicles;
 
+
 public class Vehicle {
     private String name;
-    public int speed;
+    private int speed;
 
-    public Vehicle(String name, int speed) {
+    // количество колес транспорта
+    private int amountOfWheels;
+
+    // тип транспорта
+    private VehicleType type;
+
+    public Vehicle(String name, int speed, int amountOfWheels, VehicleType type) {
         this.name = name;
         this.speed = speed;
     }
